@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: #FAF7F2;
+    color: #14221B;
+    overflow-x: hidden;
+    touch-action: manipulation;
+  }
+
+  /* Prevent iOS zoom on input focus by ensuring at least 16px */
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+  @media (min-width: 640px) {
+    input, select, textarea {
+      font-size: 0.875rem !important;
+    }
+  }
+
+  /* Custom warm scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FAF7F2;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D8CEBA;
+    border-radius: 4px;
+    border: 1px solid #FAF7F2;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C8A762;
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar on mobile horizontal lists */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Warm Ivory Luxury Cards */
+  .ivory-card {
+    background: #FFFFFF;
+    border: 1px solid #EADFC9;
+    box-shadow: 0 4px 20px 0 rgba(20, 34, 27, 0.04);
+  }
+
+  .ivory-card-hover:hover {
+    border-color: #C8A762;
+    box-shadow: 0 12px 32px 0 rgba(19, 56, 44, 0.09);
+  }
+
+  /* Arched Category Top (Lumière Signature) */
+  .arch-top {
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+  }
+  @media (min-width: 640px) {
+    .arch-top {
+      border-top-left-radius: 110px;
+      border-top-right-radius: 110px;
+    }
+  }
+
+  /* Subtle gold shimmer */
+  .gold-shimmer {
+    background: linear-gradient(90deg, #C8A762 0%, #EFE1B8 50%, #C8A762 100%);
+    background-size: 200% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: shimmer 3.5s linear infinite;
+  }
+
+  .emerald-shimmer {
+    background: linear-gradient(90deg, #13382C 0%, #235D4B 50%, #13382C 100%);
+    background-size: 200% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: shimmer 4s ease-in-out infinite;
+  }
+
+  /* Safe Area padding for iPhones with Home Bar */
+  .safe-pb {
+    padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+  }
+}

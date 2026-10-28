@@ -83,13 +83,13 @@ export default function Footer() {
                   {storeConfig.brandName}
                 </span>
                 <span className="text-[9px] tracking-[0.25em] uppercase text-charcoal-muted font-sans block font-medium">
-                  FINE JEWELLERY • JAIPUR
+                  FINE JEWELLERY • MADHUBANI
                 </span>
               </div>
             </div>
 
             <p className="text-xs sm:text-sm text-charcoal-muted font-light leading-relaxed">
-              Jaipur's premier destination for certified BIS hallmarked gold, diamond solitaires, and bespoke royal bridal jewellery since 1989.
+              Madhubani's premier destination for certified BIS hallmarked gold, diamond solitaires, and bespoke royal bridal jewellery since 1989.
             </p>
 
             <div className="p-3 rounded-xl bg-white border border-ivory-300 flex items-center gap-2.5 shadow-sm">
@@ -235,7 +235,7 @@ export default function Footer() {
 
         {/* Bottom Bar: Copyright & Back to Top */}
         <div className="pt-6 sm:pt-8 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4 text-[11px] sm:text-xs text-charcoal-muted text-center sm:text-left">
-          <p>© 2026 Swarnalay Fine Jewellery. All rights reserved. Handcrafted in Jaipur.</p>
+          <p>© 2026 Swarnalay Fine Jewellery. All rights reserved. Handcrafted with Heritage & Trust.</p>
 
           <button
             onClick={scrollToTop}

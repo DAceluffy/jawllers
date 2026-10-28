@@ -31,7 +31,7 @@ export default function BridalSpecial() {
               </h2>
 
               <p className="text-ivory-300 text-xs sm:text-base font-light leading-relaxed mb-5 sm:mb-8 max-w-xl">
-                Your wedding day deserves nothing less than ancestral majesty. Book a private consultation with our master bridal stylists in our Jaipur VIP lounge.
+                Your wedding day deserves nothing less than ancestral majesty. Book a private consultation with our master bridal stylists in our Madhubani showroom.
               </p>
 
               {/* Perks List */}

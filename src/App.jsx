@@ -51,7 +51,7 @@ export default function App() {
           {storeConfig.brandName}
         </h2>
         <p className="text-[10px] text-charcoal-muted tracking-[0.3em] uppercase mt-1">
-          FINE JEWELLERY • JAIPUR
+          FINE JEWELLERY • MADHUBANI
         </p>
       </div>
     );

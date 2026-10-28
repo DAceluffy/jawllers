@@ -120,7 +120,7 @@ export default function ContactForm() {
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 87970 72656"
                       className="w-full pl-10 pr-4 py-3 rounded-xl bg-ivory-50 border border-ivory-300 text-emerald-950 placeholder:text-charcoal-light text-sm focus:outline-none focus:border-gold-champagne focus:ring-1 focus:ring-gold-champagne transition-all"
                     />
                   </div>

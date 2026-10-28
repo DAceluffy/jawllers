@@ -32,7 +32,7 @@ export default function AboutUs() {
                   </div>
                 </div>
                 <p className="text-[8px] sm:text-xs text-charcoal-muted leading-tight sm:leading-relaxed pt-1.5 border-t border-ivory-200">
-                  Devotion since 1989 in Jaipur.
+                  Devotion since 1989 in Madhubani.
                 </p>
               </div>
 
@@ -64,7 +64,7 @@ export default function AboutUs() {
 
             <div className="space-y-2.5 sm:space-y-4 text-charcoal-muted text-xs sm:text-base leading-relaxed font-light mb-6 sm:mb-8">
               <p>
-                Founded in the heart of Jaipur's historic jewellery quarter, Swarnalay began with a singular promise: to honor the sanctity of pure gold and the emotional milestones of Indian families.
+                Founded in the heart of Madhubani on Mahila College Road, Swarnalay began with a singular promise: to honor the sanctity of pure gold and the emotional milestones of Indian families.
               </p>
               <p>
                 For over three and a half decades, our master artisans have married timeless Rajputana filigree with contemporary precision. Every diamond is hand-selected, and every gram of gold rigorously hallmarked.

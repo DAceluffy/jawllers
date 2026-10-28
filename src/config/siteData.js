@@ -9,24 +9,24 @@
 export const storeConfig = {
   // Core Brand Info
   brandName: "Swarnalay",
-  brandNameSubtitle: "Jewellers • Jaipur",
+  brandNameSubtitle: "Jewellers • Madhubani",
   brandNameDevanagari: "स्वर्णालय",
   tagline: "Timeless Jewellery, Crafted with Trust",
   establishedYear: 1989,
   yearsOfTrust: 35,
 
   // Contact Placeholders (Configurable)
-  phone: "+91 98765 43210", // [PHONE] placeholder
-  phoneDisplay: "+91 98765 43210",
-  whatsappNumber: "919876543210", // [WHATSAPP] placeholder (numeric format without '+')
-  whatsappDisplay: "+91 98765 43210",
+  phone: "+91 87970 72656", // [PHONE] placeholder
+  phoneDisplay: "+91 87970 72656",
+  whatsappNumber: "918797072656", // [WHATSAPP] placeholder (numeric format without '+')
+  whatsappDisplay: "+91 87970 72656",
   email: "care@swarnalayjewellers.com",
   
   // Location Placeholders
-  address: "Shop No. 12-16, Heritage Jewellers Promenade, Near Clock Tower", // [ADDRESS] placeholder
-  city: "Jaipur, Rajasthan", // [CITY] placeholder
-  pincode: "302001",
-  fullAddress: "Shop No. 12-16, Heritage Jewellers Promenade, Near Clock Tower, Jaipur, Rajasthan - 302001",
+  address: "Mahila College Road", // [ADDRESS] placeholder
+  city: "Madhubani, Bihar", // [CITY] placeholder
+  pincode: "847211",
+  fullAddress: "Mahila College Road, Madhubani, Bihar - 847211",
 
   // Business Timings
   timings: {
@@ -35,8 +35,8 @@ export const storeConfig = {
     closedOn: "Tuesday (Weekly Off)",
   },
 
-  // Google Maps Embed URL
-  googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113876.99307767355!2d75.71960244976722!3d26.912433644026875!2m3!1f0!2f0!3f0!3m2!1i1024!2f768!4f13.1!3m3!1m2!1s0x396db479f9d777e3%3A0x6376180c11be4a!2sJohri%20Bazaar%2C%20Pink%20City%2C%20Jaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+  // Google Maps Embed URL (Centered on Mahila College Road, Madhubani)
+  googleMapsEmbedUrl: "https://maps.google.com/maps?q=Mahila+College+Road,+Madhubani,+Bihar&t=&z=15&ie=UTF8&iwloc=&output=embed",
 
   // Social Links
   socialLinks: {
@@ -170,7 +170,7 @@ export const featuredProducts = [
     purity: "22K BIS Hallmarked",
     tag: "Masterpiece",
     image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
-    description: "Handcrafted with uncut Polki diamonds, rubies, and delicate South Sea pearls by Jaipur's master artisans."
+    description: "Handcrafted with uncut Polki diamonds, rubies, and delicate South Sea pearls by heritage master artisans."
   },
   {
     id: "prod-2",
@@ -301,7 +301,7 @@ export const testimonialsData = [
   {
     id: 1,
     name: "Suman & Rahul Sharma",
-    location: "C-Scheme, Jaipur",
+    location: "Mahila College Road, Madhubani",
     rating: 5,
     verified: true,
     purchase: "Complete Bridal Jewellery Trousseau",
@@ -310,16 +310,16 @@ export const testimonialsData = [
   {
     id: 2,
     name: "Dr. Ananya Mathur",
-    location: "Malviya Nagar, Jaipur",
+    location: "Station Road, Madhubani",
     rating: 5,
     verified: true,
     purchase: "1.20 ct Diamond Solitaire Ring",
-    comment: "The ice-blue royal ambiance of their showroom is matched only by their diamond brilliance. Certified with full IGI documentation. Highly recommended!"
+    comment: "The royal ambiance of their showroom is matched only by their diamond brilliance. Certified with full IGI documentation. Highly recommended!"
   },
   {
     id: 3,
     name: "Vikramaditya Rathore",
-    location: "Mansarovar, Jaipur",
+    location: "Bata Chowk, Madhubani",
     rating: 5,
     verified: true,
     purchase: "Antique 22K Temple Kada",
@@ -328,7 +328,7 @@ export const testimonialsData = [
   {
     id: 4,
     name: "Pooja & Sameer Verma",
-    location: "Vaishali Nagar, Jaipur",
+    location: "Ganga Sagar Chowk, Madhubani",
     rating: 5,
     verified: true,
     purchase: "Diamond & Sapphire Cocktail Ring",

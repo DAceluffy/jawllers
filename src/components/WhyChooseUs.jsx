@@ -32,7 +32,7 @@ export default function WhyChooseUs() {
             The Art of Fine Craftsmanship
           </h2>
           <p className="text-ivory-300 text-sm sm:text-base lg:text-lg font-light leading-relaxed max-w-2xl mx-auto">
-            Every piece is thoughtfully designed and meticulously crafted by skilled Jaipur artisans using ethically sourced 22K/18K hallmarked gold and certified solitaires. Our commitment to quality ensures jewellery that lasts a lifetime — and beyond.
+            Every piece is thoughtfully designed and meticulously crafted by skilled master artisans using ethically sourced 22K/18K hallmarked gold and certified solitaires. Our commitment to quality ensures jewellery that lasts a lifetime — and beyond.
           </p>
 
           {/* Central Circular Stamp (Matching Lumière "Handcrafted with Passion") */}

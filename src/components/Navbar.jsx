@@ -41,7 +41,7 @@ export default function Navbar() {
             </span>
             <span className="text-emerald-700 hidden md:inline">•</span>
             <span className="hidden md:inline text-ivory-200">
-              JAIPUR HERITAGE SINCE 1989
+              TRUSTED HERITAGE SINCE 1989
             </span>
           </div>
 
@@ -79,7 +79,7 @@ export default function Navbar() {
                 {storeConfig.brandName}
               </span>
               <span className="text-[9px] sm:text-[10px] tracking-[0.3em] uppercase text-charcoal-muted font-sans font-medium -mt-0.5">
-                FINE JEWELLERY • JAIPUR
+                FINE JEWELLERY • MADHUBANI
               </span>
             </div>
           </a>

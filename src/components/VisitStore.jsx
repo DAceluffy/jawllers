@@ -20,7 +20,7 @@ export default function VisitStore() {
             Visit Our Flagship Store
           </h2>
           <p className="text-charcoal-muted text-xs sm:text-base leading-relaxed font-light">
-            We welcome you to experience our collections in person with bespoke hospitality and expert guidance in Jaipur.
+            We welcome you to experience our collections in person with bespoke hospitality and expert guidance in Madhubani.
           </p>
         </div>
 
@@ -100,7 +100,7 @@ export default function VisitStore() {
 
             {/* Directions Action */}
             <a
-              href="https://maps.google.com/?q=Johri+Bazaar+Jaipur"
+              href={`https://maps.google.com/?q=${encodeURIComponent(storeConfig.fullAddress)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-3.5 sm:py-4 rounded-full bg-emerald-900 hover:bg-emerald-800 text-ivory-50 font-medium text-xs sm:text-sm tracking-wider uppercase shadow-md flex items-center justify-center gap-2 transition-all duration-300 active:scale-95"
